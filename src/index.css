@@ -1,0 +1,109 @@
+.margini {
+    margin-top: 3%;
+    float: left;
+}
+
+.e-color {
+    color: #0000FF;
+}
+
+.image-size {
+    width: 47%;
+
+    float: right;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container2 {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+.text {
+    float: left;
+}
+
+.text h4,
+.text p {
+    width: 70%;
+    float: left;
+
+}
+
+.text p span {
+    color: #666;
+}
+
+.btn-get-started {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.difscreens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 5px;
+    padding-right: 3%;
+
+}
+
+@media screen and (max-width: 768px) {
+    .difscreens {
+        flex-direction: column;
+        padding-left: 5%;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .iconDetails {
+
+        margin: 0 2%;
+        float: left;
+        height: 50%;
+        width: 50%;
+    }
+}
+
+.iconDetails {
+    float: left;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+img {
+    width: 100%;
+}
